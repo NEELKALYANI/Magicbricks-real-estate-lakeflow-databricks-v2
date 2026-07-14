@@ -495,35 +495,65 @@ Engineer (Data Engineering), Infosys Ltd.
 
 1.  Listing Explorer
 
- ![alt text](<Screenshot 2026-07-14 180233.png>) ![alt text](<Screenshot 2026-07-14 180258.png>) ![alt text](<Screenshot 2026-07-14 180313.png>) ![alt text](<Screenshot 2026-07-14 180325.png>) ![alt text](<Screenshot 2026-07-14 180339.png>) ![alt text](<Screenshot 2026-07-14 180354.png>)
+![1](Screenshots\le-6.png) 
+![2](Screenshots\le-5.png) 
+![3](Screenshots\le-4.png) 
+![4](Screenshots\le-3.png) 
+![5](Screenshots\le-2.png) 
+![6](Screenshots\le-1.png)
 
 2.  Executive Summary
 
-![alt text](<Screenshot 2026-07-14 180739.png>) ![alt text](<Screenshot 2026-07-14 180706.png>) ![alt text](<Screenshot 2026-07-14 180712.png>) ![alt text](<Screenshot 2026-07-14 180721.png>) ![alt text](<Screenshot 2026-07-14 180728.png>)
+![1](Screenshots/es-6.png)
+![2](Screenshots/es-5.png)
+![3](Screenshots/es-3.png)
+![4](Screenshots/es-2.png)
+![5](Screenshots/es-1.png)
 
 3.  City & Locality Summary
 
-![alt text](<Screenshot 2026-07-14 180909.png>) ![alt text](<Screenshot 2026-07-14 180915.png>) ![alt text](<Screenshot 2026-07-14 180925.png>) ![alt text](<Screenshot 2026-07-14 180934.png>)
+![1](Screenshots/cl-1.png)
+![2](Screenshots/cl-3.png)
+![3](Screenshots/cl-2.png)
 
 4.  Inventory Summary
 
-![alt text](<Screenshot 2026-07-14 181107.png>) ![alt text](<Screenshot 2026-07-14 181121.png>) ![alt text](<Screenshot 2026-07-14 181131.png>) ![alt text](<Screenshot 2026-07-14 181142.png>) ![alt text](<Screenshot 2026-07-14 181153.png>)
+![1](Screenshots/i-1.png)
+![2](Screenshots/i-5.png)
+![3](Screenshots/i-4.png)
+![4](Screenshots/i-3.png)
+![5](Screenshots/i-2.png)
 
 5.  Project Intelligence
 
-![alt text](<Screenshot 2026-07-14 181545.png>) ![alt text](<Screenshot 2026-07-14 181555.png>) ![alt text](<Screenshot 2026-07-14 181602.png>) ![alt text](<Screenshot 2026-07-14 181613.png>) ![alt text](<Screenshot 2026-07-14 181619.png>)
+![1](Screenshots/pi-2.png)
+![2](Screenshots/pi-1.png)
+![3](Screenshots/pi-5.png)
+![4](Screenshots/pi-4.png)
+![5](Screenshots/pi-3.png)
 
 6.  Price Benchmark
 
-![alt text](<Screenshot 2026-07-14 181232.png>) ![alt text](<Screenshot 2026-07-14 181254.png>) ![alt text](<Screenshot 2026-07-14 181306.png>) ![alt text](<Screenshot 2026-07-14 181320.png>) ![alt text](<Screenshot 2026-07-14 181328.png>)
+![1](Screenshots/pb-2.png)
+![2](Screenshots/pb-1.png)
+![3](Screenshots/pb-5.png)
+![4](Screenshots/pb-4.png)
+![5](Screenshots/pb-3.png)
 
 7.  Freshness
 
-![alt text](<Screenshot 2026-07-14 181656.png>) ![alt text](<Screenshot 2026-07-14 181702.png>) ![alt text](<Screenshot 2026-07-14 181709.png>) ![alt text](<Screenshot 2026-07-14 181716.png>)
+![1](Screenshots/f-4.png)
+![2](Screenshots/f-3.png)
+![3](Screenshots/f-2.png)
+![4](Screenshots/f-1.png)
 
 8.  Data Quality
 
-![alt text](<Screenshot 2026-07-14 181816.png>) ![alt text](<Screenshot 2026-07-14 181826.png>) ![alt text](<Screenshot 2026-07-14 181837.png>) ![alt text](<Screenshot 2026-07-14 181900.png>) ![alt text](<Screenshot 2026-07-14 181912.png>)
+![1](Screenshots/dq-4.png)
+![2](Screenshots/dq-3.png)
+![3](Screenshots/dq-2.png)
+![4](Screenshots/dq-1.png)
+![5](Screenshots/dq-5.png)
 
 ------------------------------------------------------------------------
 
@@ -531,16 +561,16 @@ Engineer (Data Engineering), Infosys Ltd.
 
 -   Successfully implemented an end-to-end Databricks Lakehouse project.
 
-![alt text](image.png)
+![1](Screenshots\Pipeline Graph.png)
 
 -   Successfully deployed infrastructure using Databricks Asset Bundles.
 
-![alt text](<Screenshot 2026-07-13 224845.png>)
+![1](Screenshots\Deployment Status.png)
 
 
 -   Unified six ingestion channels into a single Lakeflow pipeline.
 
-![alt text](image-1.png)
+![1](Screenshots\volumes.png)
 
 -   Processed approximately 18,000 residential property listings.
 -   Built eight Gold Materialized Views for analytics.
