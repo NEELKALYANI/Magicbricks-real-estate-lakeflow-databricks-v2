@@ -1,0 +1,38 @@
+resources:
+  jobs:
+    mb_end_to_end:
+      name: "[${bundle.target}] magicbricks_end_to_end"
+
+      # Manual trigger only for now. Add a `schedule:` block here once
+      # you're ready to run this on a cadence, e.g.:
+      # schedule:
+      #   quartz_cron_schedule: "0 0 3 * * ?"
+      #   timezone_id: "Asia/Kolkata"
+
+      tasks:
+        - task_key: setup_catalog
+          notebook_task:
+            notebook_path: ../setup/00_Setup_Catalog.py
+            base_parameters:
+              catalog: ${var.catalog}
+          environment_key: default
+
+        - task_key: ingest_external_sources
+          depends_on:
+            - task_key: setup_catalog
+          notebook_task:
+            notebook_path: ../01_Data_Ingestion.py
+            base_parameters:
+              catalog: ${var.catalog}
+          environment_key: default
+
+        - task_key: refresh_medallion_pipeline
+          depends_on:
+            - task_key: ingest_external_sources
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.mb_medallion_pipeline.id}
+
+      environments:
+        - environment_key: default
+          spec:
+            environment_version: "2"

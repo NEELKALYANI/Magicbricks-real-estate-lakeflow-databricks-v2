@@ -1,0 +1,18 @@
+resources:
+  pipelines:
+    mb_medallion_pipeline:
+      name: MB-End-To-End Pipeline
+      catalog: ${var.catalog}
+      schema: bronze
+
+      libraries:
+        - notebook:
+            path: ../transformations/02_Bronze_Ingestion.py
+        - notebook:
+            path: ../transformations/03_Bronze_Flattened.py
+        - notebook:
+            path: ../transformations/04_Silver_Cleaning.py
+        - notebook:
+            path: ../transformations/05_Silver_Expectation.py
+        - notebook:
+            path: ../transformations/06_Gold_Layer_Materialized_Views.py

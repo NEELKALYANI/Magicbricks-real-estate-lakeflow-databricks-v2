@@ -1,0 +1,21 @@
+bundle:
+  name: magicbricks-real-estate-lakeflow
+
+include:
+  - resources/*.yml
+
+variables:
+  catalog:
+    description: Unity Catalog catalog that holds the raw/bronze/silver/gold schemas.
+    default: adb_real_estate_mb
+
+targets:
+  dev:
+    mode: development
+    default: true
+    workspace:
+      # Replace with your workspace URL, e.g. https://dbc-xxxxxxx-yyyy.cloud.databricks.com
+      host: https://adb-7405618021343001.1.azuredatabricks.net
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
+    variables:
+      catalog: adb_real_estate_mb
