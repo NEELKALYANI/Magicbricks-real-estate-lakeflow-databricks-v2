@@ -344,12 +344,13 @@ Proxy credentials and the Databricks PAT are left blank in the script on purpose
 
 **1. Listing Explorer**
 
-![1](Screenshots\le-6.png)
-![2](Screenshots\le-5.png)
-![3](Screenshots\le-4.png)
-![4](Screenshots\le-3.png)
-![5](Screenshots\le-2.png)
-![6](Screenshots\le-1.png)
+<img width="1089" height="399" alt="le-6" src="https://github.com/user-attachments/assets/e5973dff-9be5-4003-b73a-634538412e92" />
+<img width="1118" height="489" alt="le-1" src="https://github.com/user-attachments/assets/b2a0e4c0-5903-4dee-9f72-61de7080d1a4" />
+<img width="1123" height="304" alt="le-2" src="https://github.com/user-attachments/assets/a6061568-75a6-4bfa-a190-81b06ed186f9" />
+<img width="1115" height="409" alt="le-3" src="https://github.com/user-attachments/assets/7489ff36-b877-4514-8a0b-f04eaccd9602" />
+<img width="1113" height="353" alt="le-4" src="https://github.com/user-attachments/assets/8bfe6c2f-3d68-470b-91a3-19a9c7de6053" />
+<img width="1110" height="353" alt="le-5" src="https://github.com/user-attachments/assets/94fffbac-abe8-447c-9d2f-30963455cb02" />
+
 
 **2. Executive Summary**
 
@@ -410,15 +411,18 @@ Proxy credentials and the Databricks PAT are left blank in the script on purpose
 
 - Shipped an end-to-end Databricks Lakehouse project from scraping through governed Gold marts.
 
-![1](Screenshots\Pipeline Graph.png)
+<img width="1017" height="379" alt="Pipeline Graph" src="https://github.com/user-attachments/assets/3367ee1e-5161-4637-9c63-9b09d038dac0" />
+
 
 - Deployed the entire infrastructure — catalog setup, ingestion, and pipeline — using Databricks Asset Bundles, with zero manual UI configuration.
 
-![1](Screenshots\Deployment Status.png)
+<img width="1108" height="362" alt="Deployment Status" src="https://github.com/user-attachments/assets/f088ef2a-6a66-4105-a3cd-4fc82031bf06" />
+
 
 - Unified six independent ingestion channels (local upload, REST API, GitHub, Google Drive, Azure Blob, AWS S3) into a single Lakeflow streaming pipeline.
 
-![1](Screenshots\volumes.png)
+<img width="274" height="248" alt="volumes" src="https://github.com/user-attachments/assets/cf6f301f-0863-43a6-9a59-b8f9c769e0b9" />
+
 
 - Processed roughly 18,000 residential property listings across six Indian cities.
 - Built eight Gold materialized views, each mapped to a distinct analytical use case.
