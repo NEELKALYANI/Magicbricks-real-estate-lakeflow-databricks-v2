@@ -465,8 +465,8 @@ Proxy credentials and the Databricks PAT are left blank in the script on purpose
 ## Author
 
 **Neel Kalyani**
-M.Sc. Data Science & Big Data Analytics
 Systems Engineer (Data Engineering), Infosys Ltd.
+M.Sc. Data Science & Big Data Analytics
 
 ---
 
